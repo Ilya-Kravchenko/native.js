@@ -30,3 +30,14 @@ function addition() {
 console.log(number)
 addition()
 console.log(addition())
+
+const a = 10
+function reset() {
+  function myFn() {
+    console.log(a)
+  }
+  myFn()
+}
+
+reset()
+ 
